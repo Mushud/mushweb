@@ -1,0 +1,40 @@
+.eduBackground{
+    padding: 50px 5px 50px 5px;
+    position: relative;
+   background: #000000 url('eduback.jpg') no-repeat fixed center center / cover;
+   color: white;
+   z-index: 99;
+   width: 100%;
+   height: 100%;
+   justify-content: center;
+}
+
+.eduBackground::after{
+    content: "";
+    position: absolute;
+      width: 100%;
+      z-index: -1;
+      top: 0;
+      left: 0;
+      height: 100%;
+      background: #0303031e;
+  }
+
+.content .row .col-12.col-lg-3 .year{
+    padding-top: 20px;
+    color: #777676
+}
+
+.content .row .col-12.col-lg-3 .content h5{
+    padding-top: 20px;
+    color: #777676
+}
+
+.content .row .col-12.col-lg-3 .content{
+    padding-top: 20px;
+   
+}
+
+.overallHeader{
+    color: #f36e01
+}

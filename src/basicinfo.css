@@ -1,0 +1,55 @@
+.basicInfo{
+    padding: 100px 10px 100px 10px;
+    background-color: rgba(212, 217, 221, 0.432)
+}
+
+#bsInfo{
+    background-color: white;
+    padding: 5px;
+    margin-top: 10px;
+    margin-right: 10px;
+    transition: all 0.2s ease-in;
+  
+}
+
+#bsInfo:hover{
+    box-shadow: 0px 3px 10px 0px rgba(134, 134, 134, 0.233);  
+    transform: scaleY(1.005);
+    transition: 0.3s ease-in-out;
+}
+
+#edu{
+    background-color: white;
+    padding: 5px;
+    margin-top:10px;
+    margin-right: 10px;
+    transition: all 0.2s ease-in;
+}
+
+#edu:hover{
+    box-shadow: 0px 3px 10px 0px rgba(134, 134, 134, 0.233);  
+    transform: scaleY(1.005);
+    transition: 0.3s ease-in-out;
+}
+
+#edu .header{
+    text-align: center;
+    color: rgb(255, 145, 0)
+}
+
+#edu .content{
+    padding: 10px 20px 10px 20px;
+}
+
+#bsInfo .ui.dividing.header{
+    text-align: center;
+    color: cornflowerblue
+}
+
+#bsInfo .content h2{
+
+    color: rgb(159, 161, 165)
+}
+#bsInfo .content {
+   padding: 10px 20px 10px 20px;
+}
