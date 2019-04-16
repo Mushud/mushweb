@@ -18,8 +18,8 @@ class BasicInfo extends React.Component{
                                     <h2>Date of Birth</h2>
                                     <p>30, July, 1999</p>
                                     <h2>Phone</h2>
-                                    <p>+233 54 821 5801</p>
-                                    <p>+233 20 735 7633</p>
+                                    <a href="callto:+233458215801"><p>+233 54 821 5801</p></a>
+                                    <a href="callto:+233207357633"><p>+233 20 735 7633</p></a>
                                     <p><a href="mailto:mushudkofiabuu@gmail.com">mushudkofiabuu@gmail.com</a></p>
                             </div>
                            
