@@ -5,7 +5,7 @@ import App from './App';
 import './SemanticUI/semantic.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap';
-
+import './App.css';
 
 import * as serviceWorker from './serviceWorker';
 

@@ -1,34 +1,37 @@
 .basicInfo{
-    padding: 100px 10px 100px 10px;
+    padding: 50px 10px 50px 10px;
     background-color: rgba(212, 217, 221, 0.432)
 }
 
 #bsInfo{
     background-color: white;
     padding: 5px;
+    padding-top: 20px;
     margin-top: 10px;
     margin-right: 10px;
     transition: all 0.2s ease-in;
-  
+    border-radius: 15px;
 }
 
 #bsInfo:hover{
     box-shadow: 0px 3px 10px 0px rgba(134, 134, 134, 0.233);  
-    transform: scaleY(1.005);
-    transition: 0.3s ease-in-out;
+   
+    transition: 0.1s ease-in-out;
 }
 
 #edu{
     background-color: white;
     padding: 5px;
+    padding-top: 20px;
     margin-top:10px;
     margin-right: 10px;
     transition: all 0.2s ease-in;
+    border-radius: 15px;
 }
 
 #edu:hover{
     box-shadow: 0px 3px 10px 0px rgba(134, 134, 134, 0.233);  
-    transform: scaleY(1.005);
+    
     transition: 0.3s ease-in-out;
 }
 

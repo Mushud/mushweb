@@ -5,7 +5,7 @@ export default class Education extends React.Component{
         render(){
 
             return(
-                <div className="eduBackground">
+                <div className="eduBackground" id="education">
 
                     <div className="container">
                         <div className="overallHeader">

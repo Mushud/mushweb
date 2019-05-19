@@ -4,14 +4,14 @@ import './basicinfo.css';
 class BasicInfo extends React.Component{
     render(){
         return(
-            <section className="basicInfo">
+            <section className="basicInfo" id="basic">
                 <div className="container">
                     <div className="row">
                         <div className="col-12 col-lg-6" id="bsInfo">
                             <div className="header">
                             <h1 className="ui dividing header">Basic Info</h1>
                             </div>
-                           
+                                          
                             <div className="content">   
                                     <h2 className="ui header">Full Name</h2>
                                     <p>Mushud Kofi Abu</p>
@@ -33,9 +33,7 @@ class BasicInfo extends React.Component{
                             <div className="content">
                                 <h2>Student at <b>University of Ghana</b></h2>
                                 <h3>Majoring in Bsc. Computer Science</h3>
-                                <h2>Founder of <a href="https://elliinc.com"> Elli Incorporation</a></h2>
-
-                                
+                                <h2>Founder of <a href="https://elliinc.com"> Elli Incorporation</a></h2>    
                             </div>
                         </div>
 

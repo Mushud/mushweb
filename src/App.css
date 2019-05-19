@@ -1,16 +1,15 @@
-
-
-
+html{
+  scroll-behavior: smooth;
+}
 .App-header {
-  text-align: center;
+
   padding: 10px;
-  position: relative;
- background: #000000 url('youarehere.jpg') no-repeat fixed center center / cover;
- color: white;
+ color: rgb(245, 245, 245);
  z-index: 99;
- width: 100%;
- height: 100%;
- justify-content: center;
+ height: 100vh;
+ background-color: blueviolet;
+  background-size: cover;
+ font-family: 'Nunito', sans-serif
 }
 
 .intro{
@@ -20,21 +19,18 @@
   font-size: 50px;
 }
 
-.container{
+.container {
   padding-top: 10px;
-  justify-content: center;
+}
+
+.jumbotron{
+  background-color: #f8f8f800;
+  margin-top: 80px;
 }
 
 
-.App-header::after{
-  content: "";
-  position: absolute;
-    width: 100%;
-    z-index: -1;
-    top: 0;
-    left: 0;
-    height: 100%;
-    background: #00090fd8;
-}
+
+
+
 
 
